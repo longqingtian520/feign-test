@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Import;
 
-@Import ({FeginApiApplication.class})
+import com.criss.wang.main.FeginApiApplication;
+
+@Import({FeginApiApplication.class})
 @SpringBootApplication
 @ComponentScan({
 	"com.criss.wang.controller.**",
